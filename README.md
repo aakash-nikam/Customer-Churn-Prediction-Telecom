@@ -3,7 +3,7 @@ Customer Churn Prediction in the Telecom Sector (CRISP-DM)
 Author: Akash Nikam (DBS – MSc Data Analytics)
 Tools: Python (scikit-learn, XGBoost, imbalanced-learn), RapidMiner AutoModel
 
-🧾 Project Overview
+Project Overview
 
 This project applies the CRISP-DM methodology to predict customer churn in the telecom sector.
 The goal is to identify high-risk customers early, allowing retention teams to take proactive measures such as discounts or personalized offers.
@@ -16,7 +16,7 @@ RapidMiner AutoModel (no-code AutoML benchmarking).
 
 The project focuses on maximizing recall (catching as many churners as possible), since missing churners is more costly than false alarms.
 
-🔧 Tech & Libraries
+Tech & Libraries
 
 Python 3.x, Jupyter Notebook
 
@@ -32,7 +32,7 @@ Install all dependencies:
 
 pip install -r requirements.txt
 
-📂 Dataset
+Dataset
 
 Source: Telco Customer Churn dataset
 
@@ -52,7 +52,7 @@ Tenure
 
 Contract type (month-to-month contracts churn more)
 
-📂 Repository Structure
+Repository Structure
 Customer-Churn-Prediction-Telecom/
 ├── Final code.ipynb                   # Python ML workflow (prep → SMOTE → models → eval)
 ├── telco_churn_cleaned.csv            # Cleaned dataset
@@ -66,8 +66,8 @@ Customer-Churn-Prediction-Telecom/
 │   └── Rapidminer overview.png        # AutoModel leaderboard
 └── README.md
 
-🧪 Models & Evaluation
-🔹 RapidMiner AutoModel
+Models & Evaluation
+ RapidMiner AutoModel
 
 Tested: Logistic Regression, Random Forest, Gradient Boosted Trees, Deep Learning
 
@@ -75,7 +75,7 @@ Best AUC: Random Forest (0.844)
 
 Limitation: Lower recall on churners
 
-🔹 Python Models
+ Python Models
 
 Logistic Regression
 
@@ -86,7 +86,7 @@ XGBoost
 Train/Test Split: 80/20 stratified
 SMOTE: Applied only to training set for class balancing
 
-📊 Key Results
+Key Results
 Model	                   Accuracy	 Recall	 ROC-AUC
 Logistic Regression	      74–75%	  0.64    0.80
 Random Forest	            77%	      0.65	  0.81
@@ -97,7 +97,7 @@ XGBoost (Python) → Best balance of recall, precision, interpretability.
 
 Feature importance: MonthlyCharges, TotalCharges, Tenure.
 
-📈 Business Impact
+Business Impact
 
 Weekly churn scoring → high-risk customers flagged.
 
@@ -105,7 +105,7 @@ Retention team can act with personalized offers/support.
 
 Reduces revenue leakage and boosts customer lifetime value.
 
-🌱 Future Work
+Future Work
 
 Real-time scoring API (Flask/FastAPI).
 
@@ -115,13 +115,13 @@ Hybrid ensemble of Python + RapidMiner models.
 
 Integration with CRM tools (Salesforce, HubSpot).
 
-📄 Academic Artefacts
+Academic Artefacts
 
 Report: CA02_Nikam_Akash_20054691_applied_project_report.pdf
 
 Slides: Customer Churn Prediction in the Telecom Sector.pptx
 
-📬 Contact
+Contact
 
 For queries or collaboration:
 Akash Nikam – MSc Data Analytics, Dublin Business School
