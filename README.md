@@ -54,6 +54,7 @@ Contract type (month-to-month contracts churn more)
 
 Repository Structure
 Customer-Churn-Prediction-Telecom/
+
 ├── Final code.ipynb                   # Python ML workflow (prep → SMOTE → models → eval)
 ├── telco_churn_cleaned.csv            # Cleaned dataset
 ├── Rapidminer analysis.rmp            # RapidMiner AutoModel workflow
